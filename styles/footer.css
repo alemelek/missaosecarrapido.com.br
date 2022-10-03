@@ -1,0 +1,28 @@
+footer {
+  text-align: center;
+  color: var(--gray-100);
+  padding: 2rem;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+span.direitos-reservados {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-100);
+}
+
+a:hover {
+  opacity: 0.8;
+}
