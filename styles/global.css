@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+
+  --primary: #e58c6c;
+  --background-primary: #e9d2c5;
+  --background-secondary: #f2e5de;
+
+  --gray-100: #f9f1ed;
+  --gray-500: #666666;
+
+  --success: #007953;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body,
+html {
+  background-color: var(--background-primary);
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font: 400 1rem Poppins, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: 0;
+}
+
+a {
+  text-decoration: none;
+}
