@@ -1,0 +1,164 @@
+header {
+  text-align: center;
+  background-color: var(--primary);
+  padding: 2rem;
+}
+
+span.header-text-1 {
+  font-weight: 600;
+  color: var(--white);
+  font-size: 2rem;
+}
+
+span.header-text-2 {
+  color: var(--gray-500);
+  font-size: 1.25rem;
+  display: block;
+  margin-top: 2rem;
+}
+
+div.offer-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2.congratulations-text {
+  color: var(--primary);
+  font-size: 2rem;
+}
+
+p.offer-acelerar-5x {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--gray-500);
+}
+
+div.offer {
+  margin-top: 2rem;
+  border: 1.5px dashed var(--primary);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+p.offer-text {
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+span.offer-sentence {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+p.biggest-discount {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+  color: var(--gray-500);
+}
+
+div.only-available {
+  margin-top: 3rem;
+  width: 100%;
+  background-color: rgba(13, 118, 84, 0.2);
+  border-radius: 8px;
+  padding: 3rem;
+}
+
+div.only-available-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--success);
+}
+
+span.only-available-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p.only-available-text {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+p.free-of-risks {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+p.warranty-text {
+  margin-top: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--gray-500);
+}
+
+span.warranty-sentence {
+  font-weight: 500;
+}
+
+div.dont-take-risks {
+  padding: 0 2rem 2rem;
+  margin-top: 4rem;
+}
+
+p.dont-take-risks-title {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: var(--primary);
+  font-weight: 600;
+  text-align: center;
+}
+
+p.dont-take-risks-text {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+p.dont-take-risks-text > span {
+  font-weight: 600;
+}
+
+strong.dont-take-risks-strong {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  span.header-text-1,
+  span.header-text-2 {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  div.offer-section {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  div.only-available-header,
+  p.only-available-text {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  span.only-available-title {
+    font-size: 2rem;
+  }
+
+  p.only-available-text {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+  }
+
+  div.dont-take-risks {
+    max-width: 1120px;
+    margin: 4rem auto 0;
+  }
+}
