@@ -1,0 +1,34 @@
+div.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+}
+
+div.content {
+  margin-top: 2rem;
+}
+
+section {
+  margin: 1.5rem 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+
+ol {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+li {
+  margin: 0.25rem;
+}
