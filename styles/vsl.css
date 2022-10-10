@@ -142,8 +142,55 @@ p.answer.visible {
   margin: 1rem 0;
 }
 
+section.references {
+  margin-top: 4rem;
+  padding: 0 2rem 1.5rem;
+}
+
+h2.references-title {
+  font-weight: 400;
+  text-align: center;
+}
+
+div.references-images {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+img.reference-img {
+  width: 300px;
+  max-height: 180px;
+}
+
+p.reference-msr {
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--gray-500);
+  margin-top: 1rem;
+}
+
+ul {
+  color: var(--gray-500);
+  max-width: 900px;
+  margin: 2rem auto 0;
+}
+
+li {
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 768px) {
   h2.faq-title {
     font-size: 2rem;
+  }
+
+  div.references-images {
+    flex-direction: row;
+    gap: 4rem;
   }
 }
